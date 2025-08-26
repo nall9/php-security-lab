@@ -64,6 +64,19 @@ attacker can change the local name and put his fake reset page! here a example w
 <img width="1780" height="976" alt="image" src="https://github.com/user-attachments/assets/2f843ba9-2000-4652-baa4-9a2384cbbbbc" />
 
 
+Here is a picture of the Ataker page and the stolen data page.
+<img width="755" height="838" alt="image" src="https://github.com/user-attachments/assets/c2f529e5-93ac-4903-a74f-49d57f967c83" />
+<img width="937" height="895" alt="image" src="https://github.com/user-attachments/assets/caec08b2-cee6-47a6-acc0-43176fa34f65" />
+
+
+
+Here is the main page of the site and the correct password reset page for the site:
+
+<img width="927" height="635" alt="image" src="https://github.com/user-attachments/assets/06256959-cf30-4e85-ac32-2a869752f979" />
+<img width="882" height="913" alt="image" src="https://github.com/user-attachments/assets/ede48f46-04cf-44ec-8a1d-c292936cd703" />
+
+
+
 
 
   ## Vulnerable Code (example)
@@ -77,8 +90,7 @@ $page_path = '/reset_password1.php';
 $display_link_absolute = "{$scheme}://{$hostHeader}{$page_path}?token={$token}";
 
 
-<img width="755" height="838" alt="image" src="https://github.com/user-attachments/assets/c2f529e5-93ac-4903-a74f-49d57f967c83" />
-<img width="937" height="895" alt="image" src="https://github.com/user-attachments/assets/caec08b2-cee6-47a6-acc0-43176fa34f65" />
+
 
 
 
@@ -110,7 +122,6 @@ $message_ready = true;
 
 */
 
-<img width="927" height="635" alt="image" src="https://github.com/user-attachments/assets/06256959-cf30-4e85-ac32-2a869752f979" />
 
 
 
